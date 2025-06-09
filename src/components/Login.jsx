@@ -7,9 +7,7 @@ const Login = () => {
     email: '',
     password: ''
   });
-
-
-
+  
   const [loading, setLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
